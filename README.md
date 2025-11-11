@@ -20,6 +20,20 @@ public class FrerardInventario {
         System.out.print("Ingrese el nombre del artículo o instrumento: ");
         articulo = sc.nextLine();
         
+        System.out.print("Ingrese el costo por pedido: ");
+        K = sc.nextDouble();
+        
+        System.out.print("Ingrese la demanda anual: ");
+        D = sc.nextDouble();
+        
+        System.out.print("Ingrese el costo de almacenamiento por unidad: ");
+        H = sc.nextDouble();
+        
+        System.out.print("Ingrese el costo de compra por unidad: ");
+        Y = sc.nextDouble();
+
+        
+        
         
        
 
