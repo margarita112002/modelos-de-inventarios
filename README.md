@@ -11,3 +11,13 @@ public class FrerardInventario {
         // Nombre de la tienda
         System.out.println("=== Bienvenido a la Tienda de Música Frerard ===");
         System.out.println("Sistema básico de teoría de inventarios");
+
+        // Variables
+        String articulo;
+        int oferta, demanda, tiempoEntrega, inventarioFinal;
+        
+        // Entrada de datos
+        System.out.print("Ingrese el nombre del artículo o instrumento: ");
+        articulo = sc.nextLine();
+
+        
