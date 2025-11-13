@@ -41,6 +41,11 @@ public class FrerardInventario {
         N_normal = D / Q_normal;
         TCU_normal = (K * N_normal) + (H * (Q_normal / 2)) + (Y * D);
 
-        //
+        // modelo con descuento// Aplicar descuento al precio unitario
+        Y_desc = Y - (Y * (descuento / 100));
+        
+        Q_desc = Math.sqrt((2 * K * D) / H);
+        N_desc = D / Q_desc;
+        TCU_desc = (K * N_desc) + (H * (Q_desc / 2)) + (Y_desc * D);
         
         
