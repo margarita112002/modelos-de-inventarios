@@ -12,29 +12,29 @@ public class FrerardInventario {
         System.out.println("=== Bienvenido a la Tienda de Música Frerard ===");
         System.out.println("Sistema básico de teoría de inventarios");
 
+       // Declarar variables
         String articulo;
-        double K, D, H, Y;
-        double Q, N, TCU;
+        double K, D, H, Y, descuento;
+        double Q_normal, N_normal, TCU_normal;
+        double Q_desc, N_desc, TCU_desc, Y_desc;
         
-        // Entrada de datos
-        System.out.print("Ingrese el nombre del artículo o instrumento: ");
+        // Pedir datos al usuario
+        System.out.print("Nombre del artículo o instrumento: ");
         articulo = sc.nextLine();
-        
-        System.out.print("Ingrese el costo por pedido: ");
+        System.out.print("Costo por pedido (K): ");
         K = sc.nextDouble();
         
-        System.out.print("Ingrese la demanda anual: ");
+        System.out.print("Demanda anual (D): ");
         D = sc.nextDouble();
         
-        System.out.print("Ingrese el costo de almacenamiento por unidad: ");
+        System.out.print("Costo de almacenamiento por unidad (H): ");
         H = sc.nextDouble();
         
-        System.out.print("Ingrese el costo de compra por unidad: ");
+        System.out.print("Costo de compra por unidad (Y): ");
         Y = sc.nextDouble();
-
+        
+        System.out.print("Descuento por cantidad (en %): ");
+        descuento = sc.nextDouble();
         
         
-        
-       
-
         
