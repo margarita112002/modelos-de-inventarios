@@ -35,6 +35,12 @@ public class FrerardInventario {
         
         System.out.print("Descuento por cantidad (en %): ");
         descuento = sc.nextDouble();
-        
+
+        //modelo normal//
+        Q_normal = Math.sqrt((2 * K * D) / H);
+        N_normal = D / Q_normal;
+        TCU_normal = (K * N_normal) + (H * (Q_normal / 2)) + (Y * D);
+
+        //
         
         
