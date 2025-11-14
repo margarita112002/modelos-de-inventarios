@@ -50,8 +50,13 @@ public class FrerardInventario {
 
          //mostrar mis resultados
          System.out.println("\n==== RESULTADOS ====");
-        System.out.println("Artículo: " + articulo);
-
+         System.out.println("Artículo: " + articulo);
+        
+        System.out.println("\n--- Modelo Normal ---");
+        System.out.printf("Cantidad óptima de pedido (Q): %.2f unidades\n", Q_normal);
+        System.out.printf("Número de pedidos por año (N): %.2f\n", N_normal);
+        System.out.printf("Costo total anual (TCU): $%.2f\n", TCU_normal);
+        
         
         
         
