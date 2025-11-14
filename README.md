@@ -47,5 +47,11 @@ public class FrerardInventario {
         Q_desc = Math.sqrt((2 * K * D) / H);
         N_desc = D / Q_desc;
         TCU_desc = (K * N_desc) + (H * (Q_desc / 2)) + (Y_desc * D);
+
+         //mostrar mis resultados
+         System.out.println("\n==== RESULTADOS ====");
+        System.out.println("Artículo: " + articulo);
+
+        
         
         
