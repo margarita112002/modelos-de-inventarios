@@ -56,7 +56,18 @@ public class FrerardInventario {
         System.out.printf("Cantidad óptima de pedido (Q): %.2f unidades\n", Q_normal);
         System.out.printf("Número de pedidos por año (N): %.2f\n", N_normal);
         System.out.printf("Costo total anual (TCU): $%.2f\n", TCU_normal);
+
+        // Comparación final
+        System.out.println("\n=== COMPARACIÓN ===");
+        if (TCU_desc < TCU_normal) {
+            System.out.println("Conviene comprar con descuento, el costo total es menor.");
+        } else {
+            System.out.println("Conviene mantener el modelo normal, el descuento no reduce el costo total.");
+        }
         
+        System.out.println("\nGracias por usar el sistema de inventarios de Frerard ♫");
+    }
+}
         
         
         
